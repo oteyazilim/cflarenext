@@ -1,0 +1,42 @@
+.post-list {
+  max-width: 650px;
+  padding: 2em;
+}
+
+.post-listing + .post-listing {
+  margin-top: 1.5em;
+  padding-top: 1.5em;
+  border-top: 1px solid #eee;
+}
+
+.post-title {
+  margin-top: 0;
+}
+
+.post-title,
+.post-body {
+  text-transform: capitalize;
+}
+
+.post-loader {
+  animation: loading 1s infinite;
+  transition: color 0.25s ease-in-out;
+}
+
+@keyframes loading {
+  0% {
+    color: silver;
+  }
+
+  25% {
+    color: blue;
+  }
+
+  75% {
+    color: magenta;
+  }
+
+  100% {
+    color: skyblue;
+  }
+}
