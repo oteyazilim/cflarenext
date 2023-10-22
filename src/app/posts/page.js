@@ -4,7 +4,7 @@ import PostList from "../components/PostList/PostList";
 const Index = () => {
   return (
    <div style={{minHeight:"100vh",padding:20}}>
-      <Link href={"/"}>Go Home</Link>
+      <Link href={"/"}>Go Homeeee2</Link>
       <PostList />
   </div>);
 };
