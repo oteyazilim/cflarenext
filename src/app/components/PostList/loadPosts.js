@@ -1,5 +1,5 @@
 async function loadPosts() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts", {cache:'no-store'});
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
   return res.json();
 }
 
